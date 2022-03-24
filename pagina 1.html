@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
-  <head> 
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
 
@@ -8,19 +8,20 @@
       body {
         background-color: lawngreen;
       }
-      @media screen and (max-width: 500px){
+      @media screen and (max-width: 500px) {
         body {
           background-color: cyan;
         }
-        .telemele{
+        .telemele {
           flex-wrap: wrap;
         }
       }
       @media screen and (max-height: 500px) and (min-width: 400px) {
-        body{
+        body {
           background-color: pink;
         }
-        .telemea2, .telemea3{
+        .telemea2,
+        .telemea3 {
           display: none;
         }
       }
@@ -53,7 +54,7 @@
       }
       .telemele {
         display: flex;
-        gap:20px;
+        gap: 20px;
       }
       .nav_bar {
         background-color: lightslategray;
@@ -87,6 +88,8 @@
         background-color: lightblue;
       }
       .pag2,
+      .pag3,
+      .pag4,
       .dropdown {
         text-decoration: none;
         color: yellowgreen;
@@ -94,7 +97,6 @@
         text-align: left;
         padding: 10px;
       }
-      
     </style>
     <title>Reteta de placinta cu branza telemea</title>
   </head>
@@ -102,7 +104,8 @@
     <nav>
       <ul class="nav_bar">
         <li><img src="hochland.jpg" width="50" alt="logo" /></li>
-        <li><a href="pagina%202.html" class="pag2"> pagina 2</a></li>
+        <li><a href="placinte.html" class="pag3"> Alte placinte</a></li>
+        <li><a href="Donatii.html" class="pag2"> Donatii</a></li>
         <li class="dropdown">
           <div class="drop-btn">Sectiuni</div>
           <div class="drop-content">
@@ -113,48 +116,55 @@
         </li>
       </ul>
     </nav>
-   
+
     <ul>
-      <li><a id="ingrediente">Ingrediente:</a> </li>
+      <li><a id="ingrediente">Ingrediente:</a></li>
 
       <li style="list-style-type: none">
         <ol>
           <li>
             <strong> 750g telemea </strong>
             <p>Aceasta ar trebui sa arate cam asa:</p>
-            
-    
+
             <div class="telemele">
-              <img class="telemea" src="telemea.jpg" alt="telemea" width="250" />
-              <img class="telemea2" src="telemea_2.jpg" alt="telemea2" width="250" />
-              <img class="telemea3" src="telemea_3.jpg" alt="telemea3" width="250" />
+              <img
+                class="telemea"
+                src="telemea.jpg"
+                alt="telemea"
+                width="250"
+              />
+              <img
+                class="telemea2"
+                src="telemea_2.jpg"
+                alt="telemea2"
+                width="250"
+              />
+              <img
+                class="telemea3"
+                src="telemea_3.jpg"
+                alt="telemea3"
+                width="250"
+              />
             </div>
-            
-    
           </li>
 
           <li>
-            <strong>foile de placinta</strong> 
-    
+            <strong>foile de placinta</strong>
+
             <img src="foi_placinta.png" alt="foi de placinta" width="300" />
-            
-    
-            <p>
-              Alte ingrediente:
-            </p>
+
+            <p>Alte ingrediente:</p>
           </li>
           <li>4 oua</li>
           <li>250 g smantana 20-30% grasime</li>
           <li>100 ml ulei pentru foi</li>
           <li>piper negru macinat</li>
           <li>o legatura de marar proaspat</li>
-          <li>30 g seminte de susan 
-    
-          </li>
+          <li>30 g seminte de susan</li>
         </ol>
       </li>
 
-      <li><a id="preparare">Mod de preparare :</a> </li>
+      <li><a id="preparare">Mod de preparare :</a></li>
 
       <li style="list-style-type: none">
         <ol>
@@ -227,8 +237,8 @@
           </li>
         </ol>
       </li>
-      
-      <li><a id="servire">Mod de servire :</a> </li>
+
+      <li><a id="servire">Mod de servire :</a></li>
 
       <li style="list-style-type: none">
         <p>
@@ -238,7 +248,7 @@
         </p>
       </li>
     </ul>
-  
+
     <i>
       Mai jos puteti consulta un tabel de masuratori, selectand o optiune sau
       mai multe in functie de gusturi:</i

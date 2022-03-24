@@ -3,39 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-
+    <title>Pagina cu placinte</title>
     <style>
+        @media screen and (max-width: 500px){
+        body {
+          background-color: cyan;
+        }
+        .chenarPlacinta2{
+            display: none;
+        }
+        .placinte{
+            display: none;
+        }
+      }
+      @media screen and (max-height: 500px) and (min-width: 400px) {
         .body{
-            background-color: darkolivegreen;
+          background-color: pink;
         }
-        .placinte1{
-            display: flex;
-            justify-content: space-between;
-            margin: 100px;
+        .chenarPlacinta1{
+            display: none;
         }
-        .chenarPlacinta{
-            display: flex;
-            width: 100px;
-            height: 150px;
-            background-color: lightsteelblue;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-        .placinta{
-            width: 75px;
-            height: 50px;
-        }
-        .placinta::after{
-            /* text */
-            width: 85px;
-            height: 80px;
-        }
-
+      }
+      .placinte {
+        display: flex;
+        height: 350px;
+        min-width: 1250px;
+        justify-content: space-between;
+        margin: 25px;
+        background-color: lightblue;
+        gap: 50px;
+      }
+      .chenarPlacinta1, .chenarPlacinta2 {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+        height: 100%;
+        background-color: lightgoldenrodyellow;
+        justify-content: center;
+    }
+      .placinta {
+        display: flex;
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+      }
+      .descriere {
+        height: 100px;
+        width: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+        word-break: break-all;
+      }
+      body {
+        background-color:olivedrab
+      }
+      /* .placinta::after {
+        content: " - poza luata de pe net";
+      } */
     </style>
-
   </head>
   <body>
-
+    <div class="placinte">
+      <div class="chenarPlacinta1">
+        <div class="placinta"><a href="https://gatesceu.ro/reteta/placinte-cu-branza-la-cuptor-rola/"><img src="placinta1.jpg" width="300px" /></a></div>
+        <div class="descriere">
+          Apasa pe placinta pentru a vedea reteta
+        </div>
+      </div>
+      <div class="chenarPlacinte2">
+        <div class="placinta"><a href="https://www.lauralaurentiu.ro/retete-culinare/patiserie/trigoane-cu-branza-sarata-placinte-cu-branza-in-forma-de-triunghi.html"><img src="placinta2.jpg" width="300px" /></a></div>
+        <div class="descriere">
+          Apasa pe placinta pentru a vedea reteta
+        </div>
+      </div>
+      <div class="chenarPlacinte2">
+        <div class="placinta"><a href="https://www.bzi.ro/uite-asa-se-prepara-cea-mai-rapida-placinta-cu-branza-in-aluat-foietaj-729523"><img src="placinta3.jpg" width="300px" /></a></div>
+        <div class="descriere">
+          Apasa pe placinta pentru a vedea reteta
+        </div>
+      </div>
+    </div>
+    <h3>
+      Daca va intereseaza si cateva retete mai extravagante, va recomandam:
+    </h3>
   </body>
 </html>
