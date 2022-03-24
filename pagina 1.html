@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        background-color: lawngreen;
+      }
+      @media screen and (max-width: 500px){
+        body {
+          background-color: cyan;
+        }
+        .telemele{
+          flex-wrap: wrap;
+        }
+      }
+      @media screen and (max-height: 500px) and (min-width: 400px) {
+        body{
+          background-color: pink;
+        }
+        .telemea2, .telemea3{
+          display: none;
+        }
+      }
+      table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td,
+      th {
+        border: 2px solid;
+        text-align: left;
+        padding: 12px;
+      }
+      tr:nth-child(even) {
+        background-color: yellow;
+      }
+      tr:nth-child(odd) {
+        background-color: palegoldenrod;
+      }
+      tr:hover {
+        background-color: aqua;
+      }
+      th {
+        text-align: center;
+      }
+      p {
+        margin-right: 50px;
+        word-spacing: 1px;
+      }
+      .telemele {
+        display: flex;
+        gap:20px;
+      }
+      .nav_bar {
+        background-color: lightslategray;
+        opacity: 0.8;
+        padding-right: 100px;
+        list-style-type: none;
+        display: flex;
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0;
+        flex-direction: row;
+      }
+      .drop-content {
+        display: none;
+        position: absolute;
+      }
+      .dropdown:hover .drop-content {
+        display: block;
+      }
+      .drop-content a {
+        display: inline-block;
+        color: black;
+        padding: 8px;
+        padding-right: 90px;
+        margin-right: 70px;
+        background-color: green;
+        text-align: left;
+        text-decoration: none;
+      }
+      .drop-content a:hover {
+        background-color: lightblue;
+      }
+      .pag2,
+      .dropdown {
+        text-decoration: none;
+        color: yellowgreen;
+        display: inline-block;
+        text-align: left;
+        padding: 10px;
+      }
+      
+    </style>
+    <title>Reteta de placinta cu branza telemea</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav_bar">
+        <li><img src="hochland.jpg" width="50" alt="logo" /></li>
+        <li><a href="pagina%202.html" class="pag2"> pagina 2</a></li>
+        <li class="dropdown">
+          <div class="drop-btn">Sectiuni</div>
+          <div class="drop-content">
+            <a href="#ingrediente">Ingrediente</a>
+            <a href="#preparare">Mod de preparare</a>
+            <a href="#servire">Mod de servire</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+   
+    <ul>
+      <li><a id="ingrediente">Ingrediente:</a> </li>
+
+      <li style="list-style-type: none">
+        <ol>
+          <li>
+            <strong> 750g telemea </strong>
+            <p>Aceasta ar trebui sa arate cam asa:</p>
+            
+    
+            <div class="telemele">
+              <img class="telemea" src="telemea.jpg" alt="telemea" width="250" />
+              <img class="telemea2" src="telemea_2.jpg" alt="telemea2" width="250" />
+              <img class="telemea3" src="telemea_3.jpg" alt="telemea3" width="250" />
+            </div>
+            
+    
+          </li>
+
+          <li>
+            <strong>foile de placinta</strong> 
+    
+            <img src="foi_placinta.png" alt="foi de placinta" width="300" />
+            
+    
+            <p>
+              Alte ingrediente:
+            </p>
+          </li>
+          <li>4 oua</li>
+          <li>250 g smantana 20-30% grasime</li>
+          <li>100 ml ulei pentru foi</li>
+          <li>piper negru macinat</li>
+          <li>o legatura de marar proaspat</li>
+          <li>30 g seminte de susan 
+    
+          </li>
+        </ol>
+      </li>
+
+      <li><a id="preparare">Mod de preparare :</a> </li>
+
+      <li style="list-style-type: none">
+        <ol>
+          <li>Pregatirea:</li>
+          <li>
+            <p>
+              Într-un castron mare am pus telemeaua rasă, ouăle, smântâna groasă
+              și mărarul. Iarna folosesc mărar uscat iar vara pun din cel verde,
+              proaspăt. Dacă nu vă place mărarul atunci puneți pătrunjel verde
+              tocat. Sare nu mai trebuie deoarece branza este sarata. Mie îmi
+              place să pun piper negru proaspăt măcinat.
+            </p>
+          </li>
+          <li>
+            <p>
+              Am mixat totul bine de tot și am obținut o cremă delicioasă de
+              brânză cu mărar. Mi-am pregătit foile subțiri de plăcintă.
+            </p>
+          </li>
+          <li>
+            <p>
+              Foile fine (subțiri) din comerț trebuie unse (stropite) cu ulei
+              între ele. Deci nu luăm câte 3 foi din pachet și le trântim așa în
+              tavă deoarece se vor lipi între ele la copt. Uleiul dintre foi le
+              face crocante. Se ia foaie cu foaie și se unge fiecare cu un pic
+              de ulei (cu pensula). Am început cu un teanc de 4 foi bine
+              stropite cu ulei (mai puțin cea de sus peste care vine umplutura).
+            </p>
+          </li>
+          <li>
+            <p>
+              Le-am așezat în tava tapetată cu hârtie de copt. Vedeți că
+              marginile foilor sunt ridicate și pe pereții tăvii. Peste primele
+              4 foi am pus 1/2 din umplutura de brânză cu smântână și mărar.
+              Apoi au urmat 2 foi (unse între ele) și restul de 1/2 din
+              umplutură.
+            </p>
+          </li>
+          <li>
+            <p>
+              Am încheiat cu alt teanc de 4 foi subțiri (unse între ele). În
+              total am folosit 10 foi (4+2+4). Nu e greșit dacă puneți 3-4 foi
+              la mijloc. Acestea însă ies cam fierte de la umiditatea din
+              brânză. Am pliat marginile plăcintei și am uns suprafața ei din
+              belșug cu ulei. Astfel voi obține o plăcintă rumenă cu crustă
+              crocantă.
+            </p>
+          </li>
+          <li>
+            <p>
+              Deasupra am presărat semințe de susan negru. Puteți folosi mac,
+              chimen sau susan alb, după gust. Gata! Plăcinta cu telemea poate
+              merge la copt.
+            </p>
+          </li>
+
+          <li>Coacerea:</li>
+          <li>
+            <p>
+              Am preîncins cuptorul la 170° C cu ventilație (căldură sus+jos)
+              respectiv treapta medie la cele cu gaz. Am copt această plăcintă
+              cu telemea cca. 35-40 min sau până ce s-a rumenit frumos.
+            </p>
+          </li>
+          <li>
+            <p>
+              Am lăsat plăcinta la răcorit aprox. 15 minute sau pana ce poate fi
+              mancata.
+            </p>
+          </li>
+        </ol>
+      </li>
+      
+      <li><a id="servire">Mod de servire :</a> </li>
+
+      <li style="list-style-type: none">
+        <p>
+          Placinta se taie in felii de forma dreptunghiulara si se aseaza pe o
+          farfurie plata. Se poate servi impreuna cu un pahar de lapte cald sau
+          cu o salata de rosii proaspete. Pofta buna!
+        </p>
+      </li>
+    </ul>
+  
+    <i>
+      Mai jos puteti consulta un tabel de masuratori, selectand o optiune sau
+      mai multe in functie de gusturi:</i
+    >
+    <p></p>
+    <table>
+      <tr>
+        <th>Preferinta</th>
+        <th>Mod de obtinere</th>
+        <th style="border: 2px dotted; border-color: red">Contraindicatii</th>
+      </tr>
+      <tr>
+        <td>Mai crocanta</td>
+        <td>Lasati placinta in cuptor cu 5-10 minute mai mult</td>
+        <td>Aveti grija sa nu se arda!</td>
+      </tr>
+      <tr>
+        <td>Mai dietetica</td>
+        <td>Puteti folosi sau combina cu branza nesarata</td>
+        <td>Nu va asteptati la acelasi gust</td>
+      </tr>
+      <tr>
+        <td>Mai multa</td>
+        <td>Puneti cantitati mai mari din ficare ingredient</td>
+        <td>Aveti grija sa incapa in tava</td>
+      </tr>
+    </table>
+  </body>
+</html>
