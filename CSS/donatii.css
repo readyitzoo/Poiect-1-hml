@@ -1,6 +1,35 @@
+@keyframes misca {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 500px;
+  }
+}
+
+figure {
+  animation: misca 5s infinite;
+  height: 100px;
+  left: 50px;
+
+  position: absolute;
+  top: 400px;
+  width: 100px;
+
+  z-index: -1;
+}
+.burduff{
+  height:"auto";
+  width:"100px";
+   
+}
 body {
   background-color: antiquewhite;
   font-size: 1em;
+}
+.imgSeif {
+  margin-left: 450px;
+  z-index: 0;
 }
 .nav_bar {
   background-color: lightslategray;

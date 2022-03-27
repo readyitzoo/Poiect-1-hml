@@ -1,5 +1,18 @@
+@keyframes schimbaCuloare {
+  0% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: rgb(122, 197, 223);
+  }
+  100% {
+    background-color: rgb(42, 185, 233);
+  }
+}
 body {
-  background-color: lightgreen;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: schimbaCuloare;
 }
 @media screen and (max-width: 500px) {
   body {
@@ -50,6 +63,9 @@ p {
 .telemele {
   column-gap: 20px;
   display: flex;
+}
+.ingrediente {
+  margin-top: -110px;
 }
 .nav_bar {
   background-color: lightslategray;

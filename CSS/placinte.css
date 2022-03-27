@@ -1,3 +1,4 @@
+
 .chenarPlacinta1,
 .chenarPlacinta2 {
   background-color: lightgoldenrodyellow;
@@ -29,11 +30,19 @@ body {
 .placinta1,
 .placinta2,
 .placinta3 {
+  animation-name: invarte;
   display: flex;
   height: 200px;
   margin: 20px;
   width: 300px;
+
 }
+.imagine1:hover, .imagine2:hover{
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+
+
 .descriere {
   height: 100px;
   margin-left: 20px;

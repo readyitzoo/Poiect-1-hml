@@ -1,3 +1,7 @@
+.imagine:hover, .pagina1:hover, .pagina2:hover, .pagina3:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
 body {
   background-color: lightcoral;
 }
