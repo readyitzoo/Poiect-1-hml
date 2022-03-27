@@ -1,0 +1,104 @@
+body {
+  background-color: lightcoral;
+}
+.nav_bar {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: -45px;
+  opacity: 0.8;
+  padding-right: 100px;
+  position: fixed;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .drop-content {
+  display: block;
+}
+.drop-content a {
+  background-color: green;
+  color: black;
+  display: inline-block;
+  margin-right: 70px;
+  padding: 8px;
+  padding-right: 90px;
+  text-align: left;
+  text-decoration: none;
+}
+.drop-content a:hover {
+  background-color: lightblue;
+}
+.pag2,
+.pag3,
+.pag4,
+.dropdown {
+  color: yellowgreen;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.pagini {
+  column-gap: 20px;
+  display: grid;
+  grid-template-areas: "pag1 pag2 pag3";
+  height: 100%;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+}
+.pagina1 {
+  background-color: lemonchiffon;
+  display: block;
+  grid-area: pag1;
+  height: 100%;
+  justify-content:center;
+}
+.pagina2 {
+  background-color: lightsteelblue;
+  display: block;
+  grid-area: pag2;
+  height: 100%;
+  justify-content: center;
+}
+.pagina3 {
+  background-color: lightseagreen;
+  display: block;
+  grid-area: pag3;
+  height: 100%;
+  justify-content: center;
+}
+.imagine {
+  height: 20vw;
+  width: 30vw;
+}
+.text,
+.text1 {
+  display: block;
+  height: 20vw;
+  margin-left: 10px;
+  width: 90%;
+}
+.text1 {
+  color: rgb(31, 31, 138);
+  display: block;
+  margin-top: 20px;
+}
+.text::before,
+.text::after {
+  content: "~";
+}
+.text1::before,
+.text1::after {
+  content: "-";
+}
+@media screen and (max-width: 1200px) {
+  .text1 {
+    display: inline;
+  }
+}

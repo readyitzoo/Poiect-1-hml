@@ -3,107 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-
-    <style>
-      body {
-        background-color: lawngreen;
-      }
-      @media screen and (max-width: 500px) {
-        body {
-          background-color: cyan;
-        }
-        .telemele {
-          flex-wrap: wrap;
-        }
-      }
-      @media screen and (max-height: 500px) and (min-width: 400px) {
-        body {
-          background-color: pink;
-        }
-        .telemea2,
-        .telemea3 {
-          display: none;
-        }
-      }
-      table {
-        font-family: Arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      td,
-      th {
-        border: 2px solid;
-        text-align: left;
-        padding: 12px;
-      }
-      tr:nth-child(even) {
-        background-color: yellow;
-      }
-      tr:nth-child(odd) {
-        background-color: palegoldenrod;
-      }
-      tr:hover {
-        background-color: aqua;
-      }
-      th {
-        text-align: center;
-      }
-      p {
-        margin-right: 50px;
-        word-spacing: 1px;
-      }
-      .telemele {
-        display: flex;
-        gap: 20px;
-      }
-      .nav_bar {
-        background-color: lightslategray;
-        opacity: 0.8;
-        padding-right: 100px;
-        list-style-type: none;
-        display: flex;
-        position: fixed;
-        margin-top: 0;
-        margin-left: 0;
-        flex-direction: row;
-      }
-      .drop-content {
-        display: none;
-        position: absolute;
-      }
-      .dropdown:hover .drop-content {
-        display: block;
-      }
-      .drop-content a {
-        display: inline-block;
-        color: black;
-        padding: 8px;
-        padding-right: 90px;
-        margin-right: 70px;
-        background-color: green;
-        text-align: left;
-        text-decoration: none;
-      }
-      .drop-content a:hover {
-        background-color: lightblue;
-      }
-      .pag2,
-      .pag3,
-      .pag4,
-      .dropdown {
-        text-decoration: none;
-        color: yellowgreen;
-        display: inline-block;
-        text-align: left;
-        padding: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="../CSS/acasa.css" />
     <title>Reteta de placinta cu branza telemea</title>
   </head>
   <body>
     <nav>
       <ul class="nav_bar">
-        <li><img src="hochland.jpg" width="50" alt="logo" /></li>
+        <li><img src="../imagini/hochland.jpg" width="50" alt="logo" /></li>
+        <li><a href="Acasa.html" class="pag3"> Pagina principala</a></li>
         <li><a href="placinte.html" class="pag3"> Alte placinte</a></li>
         <li><a href="Donatii.html" class="pag2"> Donatii</a></li>
         <li class="dropdown">
@@ -129,19 +36,19 @@
             <div class="telemele">
               <img
                 class="telemea"
-                src="telemea.jpg"
+                src="../imagini/telemea.jpg"
                 alt="telemea"
                 width="250"
               />
               <img
                 class="telemea2"
-                src="telemea_2.jpg"
+                src="../imagini/telemea_2.jpg"
                 alt="telemea2"
                 width="250"
               />
               <img
                 class="telemea3"
-                src="telemea_3.jpg"
+                src="../imagini/telemea_3.jpg"
                 alt="telemea3"
                 width="250"
               />
@@ -151,7 +58,11 @@
           <li>
             <strong>foile de placinta</strong>
 
-            <img src="foi_placinta.png" alt="foi de placinta" width="300" />
+            <img
+              src="../imagini/foi_placinta.png"
+              alt="foi de placinta"
+              width="300"
+            />
 
             <p>Alte ingrediente:</p>
           </li>

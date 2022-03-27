@@ -1,0 +1,95 @@
+body {
+  background-color: lightgreen;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: cyan;
+  }
+  .telemele {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-height: 500px) and (min-width: 500px) {
+  body {
+    background-color: pink;
+  }
+  .telemea2,
+  .telemea3 {
+    display: none;
+  }
+}
+table {
+  border-collapse: collapse;
+
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+td,
+th {
+  border: 2px solid;
+  padding: 12px;
+
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: yellow;
+}
+tr:nth-child(odd) {
+  background-color: palegoldenrod;
+}
+tr:hover {
+  background-color: aqua;
+}
+th {
+  text-align: center;
+}
+p {
+  margin-right: 50px;
+  word-spacing: 1px;
+}
+.telemele {
+  column-gap: 20px;
+  display: flex;
+}
+.nav_bar {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 0;
+  opacity: 0.8;
+  padding-right: 100px;
+  position: fixed;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .drop-content {
+  display: block;
+}
+.drop-content a {
+  background-color: green;
+  color: black;
+  display: inline-block;
+  margin-right: 70px;
+  padding: 8px;
+
+  padding-right: 90px;
+  text-align: left;
+  text-decoration: none;
+}
+.drop-content a:hover {
+  background-color: lightblue;
+}
+.pag2,
+.pag3,
+.pag4,
+.dropdown {
+  color: yellowgreen;
+  display: inline-block;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+}
