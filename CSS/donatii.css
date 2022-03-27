@@ -11,17 +11,15 @@ figure {
   animation: misca 5s infinite;
   height: 100px;
   left: 50px;
-
   position: absolute;
   top: 400px;
   width: 100px;
 
   z-index: -1;
 }
-.burduff{
-  height:"auto";
-  width:"100px";
-   
+.burduf{
+  height:auto;
+  width: 100px;
 }
 body {
   background-color: antiquewhite;
