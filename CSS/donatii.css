@@ -12,12 +12,13 @@ figure {
   height: 100px;
   left: 50px;
   position: absolute;
-  top: 400px;
+  top: 450px;
   width: 100px;
-
   z-index: -1;
 }
+
 .burduf{
+  display:block;
   height:auto;
   width: 100px;
 }
@@ -27,7 +28,10 @@ body {
 }
 .imgSeif {
   margin-left: 450px;
+  position:absolute;
+  top: 400px;
   z-index: 0;
+
 }
 .nav_bar {
   background-color: lightslategray;
